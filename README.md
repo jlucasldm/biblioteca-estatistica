@@ -51,39 +51,50 @@ programa
     'dicionário' para inserir as principais informações do gráfico.
 
     Um dicionário é uma estrutura de dados declarada da forma:
+    
         var = dict() ou
         var = {}
+        
     onde os dados são pares 
+    
         x:y
+        
     sendo x chamado de "chave" (key) e y chamado de "valor" (value)
     Um exemplo de dicionário não-vazio seria:
+    
         var = {3:7, 'azul':9, 0:'pedra'}  
+        
     onde teríamos três elementos
+    
         (3:7),
         ('azul':9),
         (0:'pedra')
 
     Para representar um gráfico em python, usando dicionário, decidi
     adotar o formato:
+    
         (característica : frequência)
+        
     onde tanto característica quanto frequência devem ser números
     inteiros* dos valores das características
 
-    Dando um exemplo objetivo, suponhamos o gráfico xXy onde
-    x = idade de crianças interessadas por cowboy bebop (característica)
-    y = quantidade de indivíduos (frequência)
+    Dando um exemplo objetivo, suponhamos o gráfico xXy onde:
+     x = idade de crianças interessadas por cowboy bebop (característica)
+     y = quantidade de indivíduos (frequência)
     
-    7
-    6             #
-    5             #
-    4         #   #
-    3       # # # #
-    2 #   # # # # #
-    1 # # # # # # #
-      3 4 5 6 7 8 9
+        7
+        6             #
+        5             #
+        4         #   #
+        3       # # # #
+        2 #   # # # # #
+        1 # # # # # # #
+          3 4 5 6 7 8 9
 
     Para inserir esses valores no nosso código, iríamos declarar:
+    
         data = {3:2, 4:1, 5:2, 6:3, 7:4, 8:3, 9:6}
+        
     mantendo a relação (característica : frequência), inserindo os
     valores inteiros*
 
@@ -94,18 +105,24 @@ programa
 
     Lembre-se que as funções possuem parâmetros específicos e as
     funções devem ser chamadas respeitando a sintaxe
+    
         estatistica.funcao_que_voce_quer(parametro_rqeuisitado)
 
     Por exemplo, se tivermos um porgrama:
+    
         import estatitica
         var = {3:2, 4:1, 5:2, 6:3, 7:4, 8:3, 9:6}
+        
     e quisermos encontrar a frequência total do gráfico, precisamos
     chamar a função 
+    
         frequencia_total(data)
+        
     respeitando o requisito da sintaxe e do parâmetro requisitado da
     função
     
     Logo, teríamos o seguinte programa:
+    
         import estatistica
         var = {3:2, 4:1, 5:2, 6:3, 7:4, 8:3, 9:6}
         freq_total = estatistica.frequencia_total(var)
@@ -121,9 +138,8 @@ programa
 Esse foi o código que utilizei para a semana 2. Espero que sirva
 de exemplo para implementação, caso ainda haja dúvidas sobre o uso
 da biblioteca em um programa
-    /////////////////////////////////////////////
+    
     import estatistica
-
     data = {16:12, 17:8, 18:7, 19:14, 20:13, 21:6, 22:13, 23:9, 24:6, 25:6, 26:6}   #grafico {idade: frequencia}
 
     ordered_data = estatistica.ordered_data(data)
@@ -138,9 +154,8 @@ da biblioteca em um programa
     print("Media:\t\t\t", media)
     print("Variancia:\t\t", variancia)
     print("Desvio Padrao:\t\t", desvio_padrao)
-    /////////////////////////////////////////////
 
 
-*   até agora, só usamos variáveis quantitativas. Nem sei exatamente
-    como é a abordagem desses conceitos para variáveis qualitativas.
-    Devo estudar mais um pouco e resolver essa situação
+   *até agora, só usamos variáveis quantitativas. Nem sei exatamente
+   como é a abordagem desses conceitos para variáveis qualitativas.
+   Devo estudar mais um pouco e resolver essa situação
