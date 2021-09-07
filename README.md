@@ -1,32 +1,32 @@
-# Biblioteca de Estatística
+# Biblioteca de estatística
 estatistica.py é uma biblioteca desenvolvida para executar operações e definir características a partir de
 definições estatísticas. Qualquer arquivo que importe estatistica.py terá acesso às funções definidas neste
 programa
 
 Até o momento, são contemplados os seguintes conceitos:
-    frequência total
-    mediana
-    média
-    variância
-    desvio padrão
-    coeficiente de bowley
-    assimetria
-    quartil
+* frequência total
+* mediana
+* média
+* variância
+* desvio padrão
+* coeficiente de bowley
+* assimetria
+* quartil
 
 Ao decorrer do semestre, novas funcionalidades serão implementadas
 
 
 
-## Como Utilizar
+## Como utilizar
 Para utilizar a biblioteca em seu projeto:
-    1. importe o arquivo estatistica.py
-    2. forneça, em forma de dicionário, os dados do gráfico em questão 
+1. importe o arquivo estatistica.py
+2. forneça, em forma de dicionário, os dados do gráfico em questão 
     na forma (característica : frequência) para cada dado
-    3. utilize os métodos como bem entender!
+3. utilize os métodos como bem entender!
 
 
 
-## Exemplos de Utilização
+## Exemplos de utilização
 Para os que não possuem familiaridade com a linguagem, uso de bibliotecas
 ou outros conceitos, farei aqui uma descrição detalhada desse documento.
 No entanto, partirei da ideia de que o leitor está habituado com o processo
@@ -78,10 +78,11 @@ programa
     onde tanto característica quanto frequência devem ser números
     inteiros* dos valores das características
 
-    Dando um exemplo objetivo, suponhamos o gráfico xXy onde:
-     x = idade de crianças interessadas por cowboy bebop (característica)
-     y = quantidade de indivíduos (frequência)
+    Dando um exemplo objetivo, suponhamos o gráfico x*y onde:
     
+        x = idade de crianças interessadas por cowboy bebop (característica)
+        y = quantidade de indivíduos (frequência)
+ 
         7
         6             #
         5             #
@@ -159,3 +160,5 @@ da biblioteca em um programa
    *até agora, só usamos variáveis quantitativas. Nem sei exatamente
    como é a abordagem desses conceitos para variáveis qualitativas.
    Devo estudar mais um pouco e resolver essa situação
+   
+   (Quaisquer dúvidas e contribuições são sempre muito bem vindas!)
