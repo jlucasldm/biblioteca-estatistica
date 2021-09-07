@@ -19,10 +19,11 @@ Ao decorrer do semestre, novas funcionalidades serão implementadas
 
 ## Como utilizar
 Para utilizar a biblioteca em seu projeto:
-1. importe o arquivo estatistica.py
-2. forneça, em forma de dicionário, os dados do gráfico em questão 
+1. baixe o arquivo estatistica.py
+2. importe o arquivo estatistica.py
+3. forneça, em forma de dicionário, os dados do gráfico em questão 
     na forma (característica : frequência) para cada dado
-3. utilize os métodos como bem entender!
+4. utilize os métodos como bem entender!
 
 
 
