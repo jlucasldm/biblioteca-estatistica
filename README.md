@@ -35,6 +35,7 @@ de criar um arquivo .py, manipular variáveis, funções e executar um
 programa
 
 1. importando estatistica.py
+    
     Coloque este arquivo, estatística.py, no mesmo diretório (leia-se pasta)
     do arquivo do seu programa .py
         Por exemplo, se seu programa está na pasta documentos/estatística, se
@@ -47,6 +48,7 @@ programa
     arquivo
 
 2. informando os dados do gráfico
+    
     Todas as funções de estatistica.py correspondem a operações e identificação
     de características em um gráfico. Escolhi adotar a estrutura de dados 
     'dicionário' para inserir as principais informações do gráfico.
@@ -101,6 +103,7 @@ programa
     valores inteiros*
 
 3. utilizando as funções
+    
     Uma vez que estatistica.py foi importado no seu programa e o
     gráfico foi definido por meio de um dicionário, agora é só utilizar
     a função desejada e manipular seus retornos em seu código.
